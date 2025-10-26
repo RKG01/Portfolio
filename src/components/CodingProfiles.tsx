@@ -87,14 +87,14 @@ const CodingProfiles = () => {
 
                 {/* Button */}
                 <Button
-                  className="w-full group/btn bg-white/5 hover:bg-white/10 border border-white/10 hover:border-primary/50 transition-all duration-300"
+                  className="w-full group/btn bg-white/5 hover:bg-white/10 border border-white/10 hover:border-primary/50 transition-all duration-300 text-white hover:text-white"
                   asChild
                 >
                   <a 
                     href={profile.link} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2"
+                    className="flex items-center justify-center gap-2 text-white hover:text-white"
                   >
                     <span>View Profile</span>
                     <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
